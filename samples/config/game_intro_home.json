@@ -1,0 +1,52 @@
+{
+  "cutscene_id": "game_intro_home_png",
+  "type": "png",
+  "play_once_event": "game_intro_home_seen",
+  "slides": [
+	{
+	  "type": "full_image",
+	  "image": "res://Assets/Cutscenes/PNG/gameintro/intro_ygo_1.png"
+	},
+	{
+	  "type": "full_image",
+	  "image": "res://Assets/Cutscenes/PNG/gameintro/intro_ygo_2.png"
+	},
+	{
+	  "type": "full_image",
+	  "image": "res://Assets/Cutscenes/PNG/gameintro/intro_ygo_3.png"
+	},
+	{
+	  "type": "dialogue",
+	  "speaker_name": "Mom",
+	  "text": "You're awake early, sweetie! Well, I knew you wouldn't sleep much on this day! You finally get to live your dreams, and I couldn't be more proud no matter what you decide to do!",
+	  "portrait_left": "",
+	  "portrait_right": "res://Assets/portraits/SecondaryCharacters/mom_neutral.png"
+	},
+	{
+	  "type": "dialogue",
+	  "speaker_name": "Mom",
+	  "text": "I'm sure you'll be among the best duelists in the world! Anyway, I'm sure you can't wait any longer, so grab your breakfast and go see Mr. Moto at his shop!",
+	  "portrait_left": "",
+	  "portrait_right": "res://Assets/portraits/SecondaryCharacters/mom_neutral.png"
+	},
+	{
+	  "type": "dialogue",
+	  "speaker_name": "Mom",
+	  "text": "He'll hand you your permit and your first deck. Aah, I remember what that feeling was like for me.",
+	  "portrait_left": "",
+	  "portrait_right": "res://Assets/portraits/SecondaryCharacters/mom_neutral.png"
+	},
+	{
+	  "type": "dialogue",
+	  "speaker_name": "Mom",
+	  "text": "Alright, now I won't keep you any longer. Give me a hug and I'll let you go!",
+	  "portrait_left": "",
+	  "portrait_right": "res://Assets/portraits/SecondaryCharacters/mom_neutral.png"
+	}
+  ],
+  "on_finished": {
+	"set_flags": [
+      "game_intro_home_seen"
+	]
+  }
+}

@@ -1,0 +1,102 @@
+{
+	"dialogue_profile_id": "card_seller_dialogues",
+	"owner_npc_id": "card_seller",
+	"display_name": "Card Seller",
+	"greetings": [
+		{
+			"greeting_id": "default_1",
+			"priority": 1,
+			"selection": "random_pool",
+			"speaker_name": "Card Seller",
+			"emotion": "happy",
+			"text": "Looking for packs? You came to the right counter.",
+			"conditions": {
+				"required_flags": [],
+				"blocked_flags": []
+			}
+		},
+		{
+			"greeting_id": "default_2",
+			"priority": 1,
+			"selection": "random_pool",
+			"speaker_name": "Card Seller",
+			"emotion": "neutral",
+			"text": "Browse as long as you like. Just don’t bend the cards, yeah?",
+			"conditions": {
+				"required_flags": [],
+				"blocked_flags": []
+			}
+		},
+		{
+			"greeting_id": "default_3",
+			"priority": 1,
+			"selection": "random_pool",
+			"speaker_name": "Card Seller",
+			"emotion": "thinking",
+			"text": "Some duelists swear by luck. Me? I swear by buying more packs.",
+			"conditions": {
+				"required_flags": [],
+				"blocked_flags": []
+			}
+		}
+	],
+	"talk_menu": {
+		"options": [
+			{
+				"option_id": "converse",
+				"label": "Converse",
+				"type": "random_conversation",
+				"pool_id": "casual_converse",
+				"conditions": {
+					"required_flags": [],
+					"blocked_flags": []
+				}
+			}
+		]
+	},
+	"conversation_pools": {
+		"casual_converse": [
+			{
+				"node_id": "card_seller_converse_1",
+				"weight": 1,
+				"conditions": {
+					"required_flags": [],
+					"blocked_flags": []
+				}
+			},
+			{
+				"node_id": "card_seller_converse_2",
+				"weight": 1,
+				"conditions": {
+					"required_flags": [],
+					"blocked_flags": []
+				}
+			}
+		],
+		"news_pool": []
+	},
+	"nodes": {
+		"card_seller_converse_1": {
+			"speaker_name": "Card Seller",
+			"emotion": "happy",
+			"text": "New packs come and go fast around here. If you’re building a deck, check back often and don’t ignore the smaller card shops.",
+			"choices": [
+				{
+					"label": "Got it.",
+					"action": "talk_menu"
+				}
+			]
+		},
+		"card_seller_converse_2": {
+			"speaker_name": "Card Seller",
+			"emotion": "neutral",
+			"text": "Gems are good here. Win duels, save up, then spend smart. A good deck doesn’t build itself.",
+			"choices": [
+				{
+					"label": "Thanks.",
+					"action": "talk_menu"
+				}
+			]
+		}
+	}
+}

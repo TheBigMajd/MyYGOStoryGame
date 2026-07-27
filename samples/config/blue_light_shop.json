@@ -1,0 +1,30 @@
+{
+
+"shop_id": "blue_light_shop",
+
+"shop_name": "The Blue Light Shop",
+
+
+"background": "res://Assets/UI/shop_background.png",
+
+"header_frame": "res://Assets/UI/header_frame.png",
+
+"currency_frame": "res://Assets/UI/header_frame.png",
+
+"pack_selection_frame": "res://Assets/UI/pack_selection_frame.png",
+
+"preview_frame": "res://Assets/UI/preview_frame.png",
+
+"currency_icon": "res://Assets/UI/shard_icon.png",
+
+"locked_icon": "res://Assets/UI/locked_icon.png",
+
+
+"packs": [
+
+"blue_eyes_primite_pack",
+"zoodiac_raidraptor_adamancipator_pack"
+
+]
+
+}

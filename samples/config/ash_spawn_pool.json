@@ -1,0 +1,78 @@
+{
+  "npc_id": "ash",
+  "reroll_mode": "daily",
+  "npc_scene_path": "res://Scenes/NPCs/ash.tscn",
+  "pools": [
+	{
+	  "pool_id": "ash_night_after_kenny",
+	  "priority": 100,
+	  "conditions": {
+		"required_flags": [
+          "defeated_kenny_the_scrapper_first_time"
+		],
+		"blocked_flags": [],
+		"time": {
+		  "enabled": true,
+		  "allowed_time_of_day": [
+            "night"
+		  ]
+		}
+	  },
+	  "locations": [
+		{
+		  "area_id": "StardustDistrict",
+		  "position": {
+			"x": -176,
+			"y": 96
+		  },
+		  "facing": "down",
+		  "weight": 6
+		},
+		{
+		  "area_id": "StardustDistrict",
+		  "position": {
+			"x": 1104,
+			"y": -2208
+		  },
+		  "facing": "down",
+		  "weight": 6
+		},
+		{
+		  "area_id": "StardustDistrict",
+		  "position": {
+			"x": 952,
+			"y": -712
+		  },
+		  "facing": "down",
+		  "weight": 6
+		},
+		{
+		  "area_id": "HiddenBar2",
+		  "position": {
+			"x": 855,
+			"y": -175
+		  },
+		  "facing": "down",
+		  "weight": 6
+		},
+		{
+		  "area_id": "ArcadinoSF2",
+		  "position": {
+			"x": 149,
+			"y": 324
+		  },
+		  "facing": "down",
+		  "weight": 6
+		},
+		{
+		  "no_spawn": true,
+		  "weight": 70
+		}
+	  ]
+	}
+  ],
+  "reroll_trigger_flags": [
+	"defeated_kenny_the_scrapper_first_time",
+    "won_ash_first_duel"
+  ]
+}

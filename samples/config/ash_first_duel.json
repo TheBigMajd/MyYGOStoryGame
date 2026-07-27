@@ -1,0 +1,26 @@
+{
+  "session_id": "ash_first_duel",
+  "npc_id": "ash",
+  "display_name": "Ash",
+  "ai_deck_name": "",
+  "windbot_ai_name": "",
+  "player_deck_source": "current_player_deck",
+  "rewards": {
+    "on_player_win": {
+      "allow_reward": true,
+      "reward_once": true,
+      "reward_once_key": "ash_first_duel_win_reward",
+      "currency": 0,
+      "items": [],
+      "set_flags": [
+        "won_ash_first_duel"
+      ]
+    },
+    "on_player_loss": {
+      "allow_reward": false,
+      "currency": 0,
+      "items": [],
+      "set_flags": []
+    }
+  }
+}
