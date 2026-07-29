@@ -144,22 +144,7 @@ These are the strongest areas to show in a public portfolio version:
 | Reward application | `Launcher/ygo-story-launcher/Tools/post_duel_validate.py`, `Launcher/ygo-story-launcher/Tools/apply_duel_rewards.py` | Shows the result-to-reward bridge after external duels finish. |
 | Data-driven content | `Launcher/ygo-story-launcher/GameData/configs` | Shows that NPCs, dialogue, duels, packs, shops, and quests were designed as editable JSON data. |
 
-## Suggested Portfolio Demo
 
-A short demo video would explain this project better than asking someone to install it.
-
-Recommended video structure:
-
-1. Start in the Godot launcher.
-2. Talk to an NPC.
-3. Trigger a duel session.
-4. Show pre-duel validation.
-5. Launch EDOPro.
-6. Show WindBot joining with the selected deck.
-7. Finish or simulate the duel result.
-8. Return to Godot and show rewards/story state changing.
-
-Keep the video under two minutes for recruiters.
 
 ## Repository Notes
 
